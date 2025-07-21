@@ -2,7 +2,7 @@ import React from 'react';
 
 const Bottomcomponent = () => {
   return (
-    <div className="w-full font-inter"> {/* Main container for the footer */}
+    <div className="w-full font-inter"> 
       {/* Disclaimer Section */}
       <div className="bg-white p-6 md:p-8 lg:p-10 text-gray-700 text-xs md:text-sm lg:text-base leading-relaxed rounded-lg shadow-sm">
         <p className="max-w-6xl mx-auto">
