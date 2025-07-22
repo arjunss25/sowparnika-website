@@ -30,7 +30,7 @@ const Schedule = () => {
     setSubmitStatus({ type: '', message: '' });
 
     try {
-      const response = await fetch('/api/contact-info/', {
+      const response = await fetch('https://masontrix.com/Newproject/api/contact-info/', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
